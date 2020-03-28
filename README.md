@@ -1,4 +1,4 @@
-# detecta
+# [detecta](https://pypi.org/project/detecta/)
 
 Python module to detect events in data
 
@@ -16,7 +16,7 @@ pip install detecta
 
 Examples
 --------
- * [detect_peaks](./docs/detect_peaks.ipynb)  
- * [detect_onset](./docs/detect_onset.ipynb)  
- * [detect_cusum](./docs/detect_cusum.ipynb)  
- * [detect_seq](./docs/detect_seq.ipynb)  
+ * [detect_peaks](https://nbviewer.jupyter.org/github/demotu/detecta/blob/master/docs/detect_peaks.ipynb)  
+ * [detect_onset](https://nbviewer.jupyter.org/github/demotu/detecta/blob/master/docs/detect_onset.ipynb)  
+ * [detect_cusum](https://nbviewer.jupyter.org/github/demotu/detecta/blob/master/docs/detect_cusum.ipynb)  
+ * [detect_seq](https://nbviewer.jupyter.org/github/demotu/detecta/blob/master/docs/detect_seq.ipynb)  
