@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="detecta",
-    version="0.0.1",
+    version="0.0.2",
     author="Marcos Duarte",
     author_email="duartexyz@gmail.com",
     description="Detect events in data",
