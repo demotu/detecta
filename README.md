@@ -34,7 +34,7 @@ conda install -c duartexyz detecta
 
 Here is a suggestion to cite this GitHub repository:
 
-> Marcos Duarte. (2021, March 11). detecta: A Python module to detect events in data (Version v0.0.5). Zenodo. http://doi.org/10.5281/zenodo.4598962
+> Marcos Duarte. (2021). detecta: A Python module to detect events in data (Version v0.0.5). Zenodo. http://doi.org/10.5281/zenodo.4598962
 
 And a possible BibTeX entry:
 
