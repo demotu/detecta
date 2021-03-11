@@ -41,7 +41,7 @@ And a possible BibTeX entry:
 ```tex
 @software{marcos_duarte_2021_4598962,
   author       = {Marcos Duarte},
-  title        = {A Python module to detect events in data},
+  title        = {detecta: A Python module to detect events in data},
   month        = mar,
   year         = 2021,
   publisher    = {Zenodo},
