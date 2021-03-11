@@ -39,13 +39,15 @@ Here is a suggestion to cite this GitHub repository:
 And a possible BibTeX entry:
 
 ```tex
-@misc{Duarte2020,  
-    author = {Duarte, M.},
-    title = {detecta: A Python module to detect events in data},  
-    year = {2020},  
-    publisher = {GitHub},  
-    journal = {GitHub repository},  
-    howpublished = {\url{https://github.com/demotu/detecta}}  
+@software{marcos_duarte_2021_4598962,
+  author       = {Marcos Duarte},
+  title        = {demotu/detecta:},
+  month        = mar,
+  year         = 2021,
+  publisher    = {Zenodo},
+  version      = {v0.0.5},
+  doi          = {10.5281/zenodo.4598962},
+  url          = {https://doi.org/10.5281/zenodo.4598962}
 }
 ```
 
