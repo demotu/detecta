@@ -1,5 +1,7 @@
 # [detecta](https://pypi.org/project/detecta/)
 
+[![DOI](https://zenodo.org/badge/250680438.svg)](https://zenodo.org/badge/latestdoi/250680438)
+
 Python module to detect events in data
 
 The following functions are implemented in detecta:  
