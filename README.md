@@ -30,6 +30,10 @@ conda install -c duartexyz detecta
 - [detect_cusum](https://nbviewer.jupyter.org/github/demotu/detecta/blob/master/docs/detect_cusum.ipynb)  
 - [detect_seq](https://nbviewer.jupyter.org/github/demotu/detecta/blob/master/docs/detect_seq.ipynb)  
 
+## Other similar modules
+
+ - [Overview of algorithms for peak detection in Python](https://github.com/MonsieurV/py-findpeaks)
+
 ## How to cite this work
 
 Here is a suggestion to cite this GitHub repository:
