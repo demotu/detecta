@@ -1,5 +1,6 @@
 # [detecta](https://pypi.org/project/detecta/)
 
+[![PyPI version](https://badge.fury.io/py/detecta.svg)](https://badge.fury.io/py/detecta) 
 [![DOI](https://zenodo.org/badge/250680438.svg)](https://zenodo.org/badge/latestdoi/250680438)
 
 Python module to detect events in data
