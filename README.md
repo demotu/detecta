@@ -18,6 +18,12 @@ The following functions are implemented in detecta:
 pip install detecta
 ```
 
+The plots (parameter `show=True`) require matplotlib, which can be installed together with:
+
+```bash
+pip install "detecta[plot]"
+```
+
 Or
 
 ```bash
@@ -26,10 +32,22 @@ conda install -c duartexyz detecta
 
 ## Examples
 
-- [detect_peaks](https://nbviewer.jupyter.org/github/demotu/detecta/blob/master/docs/detect_peaks.ipynb)  
-- [detect_onset](https://nbviewer.jupyter.org/github/demotu/detecta/blob/master/docs/detect_onset.ipynb)  
-- [detect_cusum](https://nbviewer.jupyter.org/github/demotu/detecta/blob/master/docs/detect_cusum.ipynb)  
-- [detect_seq](https://nbviewer.jupyter.org/github/demotu/detecta/blob/master/docs/detect_seq.ipynb)  
+The examples are [marimo](https://marimo.io) notebooks in the [docs](https://github.com/demotu/detecta/tree/master/docs) directory. Run them in your browser, no installation needed:
+
+| Notebook | molab | marimo.app |
+|---|---|---|
+| [detect_peaks](https://molab.marimo.io/github/demotu/detecta/blob/master/docs/detect_peaks.py) | [![Open in molab](https://marimo.io/molab-shield.svg)](https://molab.marimo.io/github/demotu/detecta/blob/master/docs/detect_peaks.py/wasm) | [![Open with marimo](https://marimo.io/shield.svg)](https://marimo.app/github.com/demotu/detecta/blob/master/docs/detect_peaks.py) |
+| [detect_onset](https://molab.marimo.io/github/demotu/detecta/blob/master/docs/detect_onset.py) | [![Open in molab](https://marimo.io/molab-shield.svg)](https://molab.marimo.io/github/demotu/detecta/blob/master/docs/detect_onset.py/wasm) | [![Open with marimo](https://marimo.io/shield.svg)](https://marimo.app/github.com/demotu/detecta/blob/master/docs/detect_onset.py) |
+| [detect_cusum](https://molab.marimo.io/github/demotu/detecta/blob/master/docs/detect_cusum.py) | [![Open in molab](https://marimo.io/molab-shield.svg)](https://molab.marimo.io/github/demotu/detecta/blob/master/docs/detect_cusum.py/wasm) | [![Open with marimo](https://marimo.io/shield.svg)](https://marimo.app/github.com/demotu/detecta/blob/master/docs/detect_cusum.py) |
+| [detect_seq](https://molab.marimo.io/github/demotu/detecta/blob/master/docs/detect_seq.py) | [![Open in molab](https://marimo.io/molab-shield.svg)](https://molab.marimo.io/github/demotu/detecta/blob/master/docs/detect_seq.py/wasm) | [![Open with marimo](https://marimo.io/shield.svg)](https://marimo.app/github.com/demotu/detecta/blob/master/docs/detect_seq.py) |
+
+The notebook name links to a static preview with the outputs; the badges run the notebook in your browser with [WebAssembly](https://docs.marimo.io/guides/wasm/).
+
+Or run them locally:
+
+```bash
+uvx marimo edit --sandbox docs/detect_peaks.py
+```
 
 ## Other similar modules
 
