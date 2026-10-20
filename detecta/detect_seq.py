@@ -5,7 +5,8 @@
 import numpy as np
 
 __author__ = 'Marcos Duarte, https://github.com/demotu'
-__version__ = 'detect_seq.py v.1.0.1 2019/03/17'
+__version__ = "1.0.2"
+__license__ = "MIT"
 
 
 def detect_seq(x, value=np.nan, index=False, min_seq=1, max_alert=0,
@@ -42,7 +43,7 @@ def detect_seq(x, value=np.nan, index=False, min_seq=1, max_alert=0,
             
     References
     ----------
-    .. [1] https://github.com/demotu/detecta/blob/master/docs/detect_seq.ipynb
+    .. [1] https://github.com/demotu/detecta/blob/master/docs/detect_seq.py
 
     Examples
     --------
@@ -63,6 +64,8 @@ def detect_seq(x, value=np.nan, index=False, min_seq=1, max_alert=0,
 
     Version history
     ---------------
+    '1.0.2':
+        Fix length of sequences used by `max_alert` (it was one less)
     '1.0.1':
         Part of the detecta module - https://pypi.org/project/detecta/  
     """
@@ -85,7 +88,7 @@ def detect_seq(x, value=np.nan, index=False, min_seq=1, max_alert=0,
         idx = idx[1:-1]
 
     if max_alert and idx2.shape[0]:
-        seq = np.diff(idx2, axis=1)
+        seq = np.diff(idx2, axis=1)[:, 0] + 1
         for j in range(idx2.shape[0]):
             bitlen = seq[j]
             if bitlen >= max_alert:

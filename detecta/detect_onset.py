@@ -41,11 +41,11 @@ def detect_onset(x, threshold=0, n_above=1, n_below=0,
     You might have to tune the parameters according to the signal-to-noise
     characteristic of the data.
 
-    See this IPython Notebook [1]_.
+    See this marimo notebook [1]_.
 
     References
     ----------
-    .. [1] https://github.com/demotu/detecta/blob/master/docs/detect_onset.ipynb
+    .. [1] https://github.com/demotu/detecta/blob/master/docs/detect_onset.py
 
     Examples
     --------

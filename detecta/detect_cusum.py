@@ -61,12 +61,12 @@ def detect_cusum(x, threshold=1, drift=0, ending=False, show=True, ax=None):
     sequential changes is kept. In this case, it is likely that `ta`, `tai`,
     and `taf` will have less values than when `ending` was set to False.
 
-    See this IPython Notebook [2]_.
+    See this marimo notebook [2]_.
 
     References
     ----------
     .. [1] Gustafsson (2000) Adaptive Filtering and Change Detection.
-    .. [2] https://github.com/demotu/detecta/blob/master/docs/detect_cusum.ipynb
+    .. [2] https://github.com/demotu/detecta/blob/master/docs/detect_cusum.py
 
     Examples
     --------

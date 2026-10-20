@@ -3,7 +3,7 @@
 import numpy as np
 
 __author__ = "Marcos Duarte, https://github.com/demotu"
-__version__ = "1.0.7"
+__version__ = "1.0.8"
 __license__ = "MIT"
 
 
@@ -53,11 +53,11 @@ def detect_peaks(x, mph=None, mpd=1, threshold=0, edge='rising',
 
     The function can handle NaN's
 
-    See this IPython Notebook [1]_.
+    See this marimo notebook [1]_.
 
     References
     ----------
-    .. [1] https://github.com/demotu/detecta/blob/master/docs/detect_peaks.ipynb
+    .. [1] https://github.com/demotu/detecta/blob/master/docs/detect_peaks.py
 
     Examples
     --------
@@ -94,6 +94,8 @@ def detect_peaks(x, mph=None, mpd=1, threshold=0, edge='rising',
 
     Version history
     ---------------
+    '1.0.8':
+        Replace `np.in1d` (removed in NumPy 2.x) by `np.isin`
     '1.0.7':
         Part of the detecta module - https://pypi.org/project/detecta/  
     '1.0.6':
@@ -129,7 +131,7 @@ def detect_peaks(x, mph=None, mpd=1, threshold=0, edge='rising',
     # handle NaN's
     if ind.size and indnan.size:
         # NaN's and values close to NaN's cannot be peaks
-        ind = ind[np.in1d(ind, np.unique(np.hstack((indnan, indnan-1, indnan+1))), invert=True)]
+        ind = ind[np.isin(ind, np.unique(np.hstack((indnan, indnan-1, indnan+1))), invert=True)]
     # first and last values of x cannot be peaks
     if ind.size and ind[0] == 0:
         ind = ind[1:]
