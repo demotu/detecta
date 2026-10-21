@@ -5,6 +5,7 @@
 #     "marimo",
 #     "matplotlib",
 #     "numpy",
+#     "pyversions",
 # ]
 # ///
 
@@ -68,10 +69,17 @@ def _():
     import marimo as mo
     import matplotlib.pyplot as plt
     import numpy as np
+    import pyversions
 
     from detecta import detect_peaks
 
-    return detect_peaks, mo, np, plt, timeit
+    return detect_peaks, mo, np, plt, pyversions, timeit
+
+
+@app.cell
+def _(pyversions):
+    _info = pyversions.versions()
+    return
 
 
 @app.cell(hide_code=True)

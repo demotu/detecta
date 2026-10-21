@@ -5,6 +5,7 @@
 #     "marimo",
 #     "matplotlib",
 #     "numpy",
+#     "pyversions",
 # ]
 # ///
 
@@ -66,10 +67,17 @@ def _(mo):
 def _():
     import marimo as mo
     import numpy as np
+    import pyversions
 
     from detecta import detect_seq
 
-    return detect_seq, mo, np
+    return detect_seq, mo, np, pyversions
+
+
+@app.cell
+def _(pyversions):
+    _info = pyversions.versions()
+    return
 
 
 @app.cell

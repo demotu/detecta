@@ -2,7 +2,7 @@
   "version": "1",
   "metadata": {
     "marimo_version": "0.25.2",
-    "script_metadata_hash": "2c8419cc88222e8184b71e9fb088b006"
+    "script_metadata_hash": "e09292120e19a139128de8be2030792a"
   },
   "cells": [
     {
@@ -46,7 +46,7 @@
     },
     {
       "id": "bkHC",
-      "code_hash": "62aa1489b8c4f2ccf6dd88c5d2419006",
+      "code_hash": "3c725b14c88bf8e5869316ce08b28258",
       "outputs": [
         {
           "type": "data",
@@ -59,6 +59,26 @@
     },
     {
       "id": "lEQa",
+      "code_hash": "91a773d98b11506f4773a022fefbdd72",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "Linux 7.0.0-38-generic 64-bit #38-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep  4 09:10:14 UTC 2026\nCPython 3.14.7 (main, Aug 14 2026, 15:35:28) [Clang 22.1.3 ]\nOct 20 2026, 23:03:18\n\nModule         Version\ndetecta          0.1.0\nmarimo          0.25.2\nnumpy            2.5.4\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "PKri",
       "code_hash": "a9fc706a964237b779867d3d528ba156",
       "outputs": [
         {
@@ -78,7 +98,7 @@
       ]
     },
     {
-      "id": "PKri",
+      "id": "Xref",
       "code_hash": "b61eb9b889636e772db82bb71f35139f",
       "outputs": [
         {
@@ -91,7 +111,7 @@
       "console": []
     },
     {
-      "id": "Xref",
+      "id": "SFPL",
       "code_hash": "626cfab49e0aacec4b4894c7dee0a347",
       "outputs": [
         {
@@ -104,7 +124,7 @@
       "console": []
     },
     {
-      "id": "SFPL",
+      "id": "BYtC",
       "code_hash": "d54a26f2ca017ce93f5954e737257762",
       "outputs": [
         {
@@ -117,7 +137,7 @@
       "console": []
     },
     {
-      "id": "BYtC",
+      "id": "RGSE",
       "code_hash": "abb9d0575031d1102d330548a6b1f14f",
       "outputs": [
         {
@@ -130,7 +150,7 @@
       "console": []
     },
     {
-      "id": "RGSE",
+      "id": "Kclp",
       "code_hash": "8e44fac1bca19845afc7e307c6ba2c9a",
       "outputs": [
         {
@@ -143,7 +163,7 @@
       "console": []
     },
     {
-      "id": "Kclp",
+      "id": "emfo",
       "code_hash": "2426acd0a619b9306156d208ac090252",
       "outputs": [
         {
@@ -156,7 +176,7 @@
       "console": []
     },
     {
-      "id": "emfo",
+      "id": "Hstk",
       "code_hash": "a177443461419dd408cd6375c1b8fbee",
       "outputs": [
         {
@@ -169,7 +189,7 @@
       "console": []
     },
     {
-      "id": "Hstk",
+      "id": "nWHF",
       "code_hash": "f9853726777e96453d9d1f79d23565f0",
       "outputs": [
         {
@@ -189,7 +209,7 @@
       ]
     },
     {
-      "id": "nWHF",
+      "id": "iLit",
       "code_hash": "7d0dea5f44ffd14c1161555c2a822cd8",
       "outputs": [
         {
@@ -209,7 +229,7 @@
       ]
     },
     {
-      "id": "iLit",
+      "id": "ZHCJ",
       "code_hash": "417f83dbdd15bef8c59be2da2ee9aedb",
       "outputs": [
         {
@@ -229,7 +249,7 @@
       ]
     },
     {
-      "id": "ZHCJ",
+      "id": "ROlb",
       "code_hash": "4e951b0d7c2817f01db29d4ffbd13470",
       "outputs": [
         {
@@ -249,7 +269,7 @@
       ]
     },
     {
-      "id": "ROlb",
+      "id": "qnkX",
       "code_hash": "ad43546620ab05265d069137c4a1df31",
       "outputs": [
         {
@@ -262,7 +282,7 @@
       "console": []
     },
     {
-      "id": "qnkX",
+      "id": "TqIu",
       "code_hash": "f487c68d68c970cd2f9f43ef42286a90",
       "outputs": [
         {

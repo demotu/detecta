@@ -2,7 +2,7 @@
   "version": "1",
   "metadata": {
     "marimo_version": "0.25.2",
-    "script_metadata_hash": "2c8419cc88222e8184b71e9fb088b006"
+    "script_metadata_hash": "e09292120e19a139128de8be2030792a"
   },
   "cells": [
     {
@@ -46,7 +46,7 @@
     },
     {
       "id": "bkHC",
-      "code_hash": "973a2bdf169ea4799cbe1fe59801012b",
+      "code_hash": "890b865b7768fdb30a4c27fc99964c8b",
       "outputs": [
         {
           "type": "data",
@@ -59,6 +59,26 @@
     },
     {
       "id": "lEQa",
+      "code_hash": "91a773d98b11506f4773a022fefbdd72",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "Linux 7.0.0-38-generic 64-bit #38-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep  4 09:10:14 UTC 2026\nCPython 3.14.7 (main, Aug 14 2026, 15:35:28) [Clang 22.1.3 ]\nOct 20 2026, 23:03:10\n\nModule         Version\ndetecta          0.1.0\nmarimo          0.25.2\nnumpy            2.5.4\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "PKri",
       "code_hash": "be94b451adc57d0b0c04067dc154549e",
       "outputs": [
         {
@@ -71,7 +91,7 @@
       "console": []
     },
     {
-      "id": "PKri",
+      "id": "Xref",
       "code_hash": "c17c99d474697dfb6309fc3714a5b594",
       "outputs": [
         {
@@ -91,7 +111,7 @@
       ]
     },
     {
-      "id": "Xref",
+      "id": "SFPL",
       "code_hash": "4c6d4b5b1a060d56aa3c9b64dc9bbea5",
       "outputs": [
         {
@@ -104,7 +124,7 @@
       "console": []
     },
     {
-      "id": "SFPL",
+      "id": "BYtC",
       "code_hash": "c08575d9222dc0e969445ecb23ce2eb4",
       "outputs": [
         {
@@ -124,7 +144,7 @@
       ]
     },
     {
-      "id": "BYtC",
+      "id": "RGSE",
       "code_hash": "02c002cc8905cf159ec2ef5c480068af",
       "outputs": [
         {
@@ -137,7 +157,7 @@
       "console": []
     },
     {
-      "id": "RGSE",
+      "id": "Kclp",
       "code_hash": "85d9d963bb3d83599ee416c33ace3483",
       "outputs": [
         {
@@ -157,7 +177,7 @@
       ]
     },
     {
-      "id": "Kclp",
+      "id": "emfo",
       "code_hash": "a8e22459016f64d637f9a976a465b6dd",
       "outputs": [
         {
@@ -170,7 +190,7 @@
       "console": []
     },
     {
-      "id": "emfo",
+      "id": "Hstk",
       "code_hash": "58282ddb3e34df1225392523f6cc3c8c",
       "outputs": [
         {
@@ -183,7 +203,7 @@
       "console": []
     },
     {
-      "id": "Hstk",
+      "id": "nWHF",
       "code_hash": "550ed1894809ef3d1239df8738709bc0",
       "outputs": [
         {
@@ -196,7 +216,7 @@
       "console": []
     },
     {
-      "id": "nWHF",
+      "id": "iLit",
       "code_hash": "e6ba2f03aebe2247c7f9f5e180c54ba9",
       "outputs": [
         {
@@ -216,7 +236,7 @@
       ]
     },
     {
-      "id": "iLit",
+      "id": "ZHCJ",
       "code_hash": "23d847f3d030297d3eff332b8c7ca8f2",
       "outputs": [
         {
@@ -229,7 +249,7 @@
       "console": []
     },
     {
-      "id": "ZHCJ",
+      "id": "ROlb",
       "code_hash": "17eb72ab0e298ae1b8aeb3af6619ed37",
       "outputs": [
         {
@@ -249,7 +269,7 @@
       ]
     },
     {
-      "id": "ROlb",
+      "id": "qnkX",
       "code_hash": "43f8d94866fe79b38ec16b83c7edb89d",
       "outputs": [
         {
@@ -262,7 +282,7 @@
       "console": []
     },
     {
-      "id": "qnkX",
+      "id": "TqIu",
       "code_hash": "dec4dc5a0ad6470deb47212a09d93a90",
       "outputs": [
         {
@@ -282,7 +302,7 @@
       ]
     },
     {
-      "id": "TqIu",
+      "id": "Vxnm",
       "code_hash": "24662b7d4a5d22f36af2e1c804072f68",
       "outputs": [
         {
@@ -295,7 +315,7 @@
       "console": []
     },
     {
-      "id": "Vxnm",
+      "id": "DnEU",
       "code_hash": "e886d281708ee6c4e82af65e18ae8ae2",
       "outputs": [
         {
@@ -315,7 +335,7 @@
       ]
     },
     {
-      "id": "DnEU",
+      "id": "ulZA",
       "code_hash": "ae5f2fd998e795ede4e2eb5803a578b7",
       "outputs": [
         {
@@ -328,7 +348,7 @@
       "console": []
     },
     {
-      "id": "ulZA",
+      "id": "ecfG",
       "code_hash": "e3ba21684c5225c762cb8ec63df63a65",
       "outputs": [
         {
@@ -348,7 +368,7 @@
       ]
     },
     {
-      "id": "ecfG",
+      "id": "Pvdt",
       "code_hash": "0d88a1b8e6950db265ec3e8c24b46598",
       "outputs": [
         {
@@ -361,7 +381,7 @@
       "console": []
     },
     {
-      "id": "Pvdt",
+      "id": "ZBYS",
       "code_hash": "c203e5f7cd68b60ada7bccbf715e8d59",
       "outputs": [
         {
@@ -381,7 +401,7 @@
       ]
     },
     {
-      "id": "ZBYS",
+      "id": "aLJB",
       "code_hash": "38bf5e0af4434597b9520dc994d79726",
       "outputs": [
         {
@@ -394,7 +414,7 @@
       "console": []
     },
     {
-      "id": "aLJB",
+      "id": "nHfw",
       "code_hash": "d8a7c4b1fb6fffac2a5cfb9f85b27410",
       "outputs": [
         {
@@ -420,7 +440,7 @@
       ]
     },
     {
-      "id": "nHfw",
+      "id": "xXTn",
       "code_hash": "829de11ad00dfbc187249a4c17b14c18",
       "outputs": [
         {
@@ -433,20 +453,20 @@
       "console": []
     },
     {
-      "id": "xXTn",
+      "id": "AjVT",
       "code_hash": "dae50c718a8e2077df8be11c06a53c8c",
       "outputs": [
         {
           "type": "data",
           "data": {
-            "text/html": "<div style='display: flex;flex: 1;flex-direction: row;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 4rem'><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><marimo-ui-element object-id='xXTn-0' random-id='8ee43a6a-77e3-fc72-d9bd-65bd397eb899'><marimo-dropdown data-initial-value='[&quot;large step&quot;]' data-label='&quot;&#92;u003cspan class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&#92;u003e&#92;u003cspan class=&#92;&quot;paragraph&#92;&quot;&#92;u003edata&#92;u003c/span&#92;u003e&#92;u003c/span&#92;u003e&quot;' data-options='[&quot;large step&quot;,&quot;small shift&quot;,&quot;steps and ramp&quot;]' data-allow-select-none='false' data-searchable='false' data-full-width='false' data-disabled='false'></marimo-dropdown></marimo-ui-element><marimo-ui-element object-id='xXTn-1' random-id='c165532e-64e5-8e40-a4a5-ff8ebb10ec23'><marimo-dropdown data-initial-value='[&quot;previous&quot;]' data-label='&quot;&#92;u003cspan class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&#92;u003e&#92;u003cspan class=&#92;&quot;paragraph&#92;&quot;&#92;u003ereference&#92;u003c/span&#92;u003e&#92;u003c/span&#92;u003e&quot;' data-options='[&quot;previous&quot;,&quot;mean&quot;,&quot;run_mean&quot;,&quot;residual&quot;]' data-allow-select-none='false' data-searchable='false' data-full-width='false' data-disabled='false'></marimo-dropdown></marimo-ui-element><marimo-ui-element object-id='xXTn-6' random-id='01649eb6-3334-7373-4391-860838a747fd'><marimo-checkbox data-initial-value='true' data-label='&quot;&#92;u003cspan class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&#92;u003e&#92;u003cspan class=&#92;&quot;paragraph&#92;&quot;&#92;u003eending&#92;u003c/span&#92;u003e&#92;u003c/span&#92;u003e&quot;' data-disabled='false'></marimo-checkbox></marimo-ui-element></div><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><marimo-ui-element object-id='xXTn-2' random-id='b1e88ee3-6f22-79c2-cc3b-1a96ab39d2a5'><marimo-slider data-initial-value='3' data-label='&quot;&#92;u003cspan class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&#92;u003e&#92;u003cspan class=&#92;&quot;paragraph&#92;&quot;&#92;u003ethreshold&#92;u003c/span&#92;u003e&#92;u003c/span&#92;u003e&quot;' data-start='0.5' data-stop='15' data-step='0.5' data-steps='[]' data-debounce='false' data-disabled='false' data-orientation='&quot;horizontal&quot;' data-show-value='true' data-include-input='false' data-full-width='false'></marimo-slider></marimo-ui-element><marimo-ui-element object-id='xXTn-3' random-id='3e3cf2f1-065f-3947-95df-c33411dc6017'><marimo-slider data-initial-value='1.5' data-label='&quot;&#92;u003cspan class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&#92;u003e&#92;u003cspan class=&#92;&quot;paragraph&#92;&quot;&#92;u003edrift&#92;u003c/span&#92;u003e&#92;u003c/span&#92;u003e&quot;' data-start='0' data-stop='3' data-step='0.05' data-steps='[]' data-debounce='false' data-disabled='false' data-orientation='&quot;horizontal&quot;' data-show-value='true' data-include-input='false' data-full-width='false'></marimo-slider></marimo-ui-element></div><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><marimo-ui-element object-id='xXTn-4' random-id='29fffaca-8a01-d599-d77f-25bc5e0aba94'><marimo-slider data-initial-value='0.05' data-label='&quot;&#92;u003cspan class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&#92;u003e&#92;u003cspan class=&#92;&quot;paragraph&#92;&quot;&#92;u003ealpha&#92;u003c/span&#92;u003e&#92;u003c/span&#92;u003e&quot;' data-start='0.005' data-stop='1' data-step='0.005' data-steps='[]' data-debounce='false' data-disabled='false' data-orientation='&quot;horizontal&quot;' data-show-value='true' data-include-input='false' data-full-width='false'></marimo-slider></marimo-ui-element><marimo-ui-element object-id='xXTn-5' random-id='a2a5f091-a91a-6fee-2b71-52d3634c4f28'><marimo-slider data-initial-value='30' data-label='&quot;&#92;u003cspan class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&#92;u003e&#92;u003cspan class=&#92;&quot;paragraph&#92;&quot;&#92;u003en_baseline&#92;u003c/span&#92;u003e&#92;u003c/span&#92;u003e&quot;' data-start='5' data-stop='200' data-steps='[]' data-debounce='false' data-disabled='false' data-orientation='&quot;horizontal&quot;' data-show-value='true' data-include-input='false' data-full-width='false'></marimo-slider></marimo-ui-element></div></div>"
+            "text/html": "<div style='display: flex;flex: 1;flex-direction: row;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 4rem'><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><marimo-ui-element object-id='AjVT-0' random-id='299e0add-3c8f-82d9-349c-c8e5bc3ca150'><marimo-dropdown data-initial-value='[&quot;large step&quot;]' data-label='&quot;&#92;u003cspan class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&#92;u003e&#92;u003cspan class=&#92;&quot;paragraph&#92;&quot;&#92;u003edata&#92;u003c/span&#92;u003e&#92;u003c/span&#92;u003e&quot;' data-options='[&quot;large step&quot;,&quot;small shift&quot;,&quot;steps and ramp&quot;]' data-allow-select-none='false' data-searchable='false' data-full-width='false' data-disabled='false'></marimo-dropdown></marimo-ui-element><marimo-ui-element object-id='AjVT-1' random-id='d319c72e-c037-216e-20dd-c09b662b2636'><marimo-dropdown data-initial-value='[&quot;previous&quot;]' data-label='&quot;&#92;u003cspan class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&#92;u003e&#92;u003cspan class=&#92;&quot;paragraph&#92;&quot;&#92;u003ereference&#92;u003c/span&#92;u003e&#92;u003c/span&#92;u003e&quot;' data-options='[&quot;previous&quot;,&quot;mean&quot;,&quot;run_mean&quot;,&quot;residual&quot;]' data-allow-select-none='false' data-searchable='false' data-full-width='false' data-disabled='false'></marimo-dropdown></marimo-ui-element><marimo-ui-element object-id='AjVT-6' random-id='2991383a-c3af-3b6a-1b5e-aca17444c72f'><marimo-checkbox data-initial-value='true' data-label='&quot;&#92;u003cspan class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&#92;u003e&#92;u003cspan class=&#92;&quot;paragraph&#92;&quot;&#92;u003eending&#92;u003c/span&#92;u003e&#92;u003c/span&#92;u003e&quot;' data-disabled='false'></marimo-checkbox></marimo-ui-element></div><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><marimo-ui-element object-id='AjVT-2' random-id='365faf7b-5361-90b9-b69f-16b8145f510f'><marimo-slider data-initial-value='3' data-label='&quot;&#92;u003cspan class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&#92;u003e&#92;u003cspan class=&#92;&quot;paragraph&#92;&quot;&#92;u003ethreshold&#92;u003c/span&#92;u003e&#92;u003c/span&#92;u003e&quot;' data-start='0.5' data-stop='15' data-step='0.5' data-steps='[]' data-debounce='false' data-disabled='false' data-orientation='&quot;horizontal&quot;' data-show-value='true' data-include-input='false' data-full-width='false'></marimo-slider></marimo-ui-element><marimo-ui-element object-id='AjVT-3' random-id='5b2ee8db-9286-0ec3-16c9-eb4300c77714'><marimo-slider data-initial-value='1.5' data-label='&quot;&#92;u003cspan class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&#92;u003e&#92;u003cspan class=&#92;&quot;paragraph&#92;&quot;&#92;u003edrift&#92;u003c/span&#92;u003e&#92;u003c/span&#92;u003e&quot;' data-start='0' data-stop='3' data-step='0.05' data-steps='[]' data-debounce='false' data-disabled='false' data-orientation='&quot;horizontal&quot;' data-show-value='true' data-include-input='false' data-full-width='false'></marimo-slider></marimo-ui-element></div><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><marimo-ui-element object-id='AjVT-4' random-id='b562820e-7b2b-e325-37c3-ecbe2c247e50'><marimo-slider data-initial-value='0.05' data-label='&quot;&#92;u003cspan class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&#92;u003e&#92;u003cspan class=&#92;&quot;paragraph&#92;&quot;&#92;u003ealpha&#92;u003c/span&#92;u003e&#92;u003c/span&#92;u003e&quot;' data-start='0.005' data-stop='1' data-step='0.005' data-steps='[]' data-debounce='false' data-disabled='false' data-orientation='&quot;horizontal&quot;' data-show-value='true' data-include-input='false' data-full-width='false'></marimo-slider></marimo-ui-element><marimo-ui-element object-id='AjVT-5' random-id='6433f0ca-5975-d92b-cebe-022821b94df3'><marimo-slider data-initial-value='30' data-label='&quot;&#92;u003cspan class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&#92;u003e&#92;u003cspan class=&#92;&quot;paragraph&#92;&quot;&#92;u003en_baseline&#92;u003c/span&#92;u003e&#92;u003c/span&#92;u003e&quot;' data-start='5' data-stop='200' data-steps='[]' data-debounce='false' data-disabled='false' data-orientation='&quot;horizontal&quot;' data-show-value='true' data-include-input='false' data-full-width='false'></marimo-slider></marimo-ui-element></div></div>"
           }
         }
       ],
       "console": []
     },
     {
-      "id": "AjVT",
+      "id": "pHFh",
       "code_hash": "70638045224d4eedf96be02886dad7a1",
       "outputs": [
         {
@@ -466,7 +486,7 @@
       ]
     },
     {
-      "id": "pHFh",
+      "id": "NCOB",
       "code_hash": "e7a4e47e228be8f8c7ac16131488b206",
       "outputs": [
         {
@@ -479,7 +499,7 @@
       "console": []
     },
     {
-      "id": "NCOB",
+      "id": "aqbW",
       "code_hash": "cadef5da424db4ffbff61124e49eae4c",
       "outputs": [
         {
@@ -493,13 +513,13 @@
         {
           "type": "stream",
           "name": "stdout",
-          "text": "Detection of onset (data size = 10000):\n30.200 ms per loop\n",
+          "text": "Detection of onset (data size = 10000):\n29.403 ms per loop\n",
           "mimetype": "text/plain"
         }
       ]
     },
     {
-      "id": "aqbW",
+      "id": "TRpd",
       "code_hash": "6f631a39edb080740297d27793870a69",
       "outputs": [
         {

@@ -2,7 +2,7 @@
   "version": "1",
   "metadata": {
     "marimo_version": "0.25.2",
-    "script_metadata_hash": "2c8419cc88222e8184b71e9fb088b006"
+    "script_metadata_hash": "e09292120e19a139128de8be2030792a"
   },
   "cells": [
     {
@@ -46,7 +46,7 @@
     },
     {
       "id": "bkHC",
-      "code_hash": "360a165733c1efc0b90e6415dab91246",
+      "code_hash": "bec6cbe07b618be0ad8ed90f31d84327",
       "outputs": [
         {
           "type": "data",
@@ -59,6 +59,26 @@
     },
     {
       "id": "lEQa",
+      "code_hash": "91a773d98b11506f4773a022fefbdd72",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "Linux 7.0.0-38-generic 64-bit #38-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep  4 09:10:14 UTC 2026\nCPython 3.14.7 (main, Aug 14 2026, 15:35:28) [Clang 22.1.3 ]\nOct 20 2026, 23:03:06\n\nModule         Version\ndetecta          0.1.0\nmarimo          0.25.2\nnumpy            2.5.4\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "PKri",
       "code_hash": "c8faf8b11b286066b1beccf3720403cd",
       "outputs": [
         {
@@ -71,7 +91,7 @@
       "console": []
     },
     {
-      "id": "PKri",
+      "id": "Xref",
       "code_hash": "8b1a847c2f72584cb3c6235e6e02df92",
       "outputs": [
         {
@@ -91,7 +111,7 @@
       ]
     },
     {
-      "id": "Xref",
+      "id": "SFPL",
       "code_hash": "a89df79324c556b595854d66b61b285a",
       "outputs": [
         {
@@ -104,7 +124,7 @@
       "console": []
     },
     {
-      "id": "SFPL",
+      "id": "BYtC",
       "code_hash": "c5643596752189c6bc368a99e8473877",
       "outputs": [
         {
@@ -124,7 +144,7 @@
       ]
     },
     {
-      "id": "BYtC",
+      "id": "RGSE",
       "code_hash": "5742cfa7b5869832429ef71807004c95",
       "outputs": [
         {
@@ -137,7 +157,7 @@
       "console": []
     },
     {
-      "id": "RGSE",
+      "id": "Kclp",
       "code_hash": "c878d811dd7f4bc70ba6c52b472ae009",
       "outputs": [
         {
@@ -157,7 +177,7 @@
       ]
     },
     {
-      "id": "Kclp",
+      "id": "emfo",
       "code_hash": "e62e3194e5fb9c1b28c2a7fead16e85b",
       "outputs": [
         {
@@ -170,7 +190,7 @@
       "console": []
     },
     {
-      "id": "emfo",
+      "id": "Hstk",
       "code_hash": "8d50b3923d4a37c1c9c047728b9d8aba",
       "outputs": [
         {
@@ -190,7 +210,7 @@
       ]
     },
     {
-      "id": "Hstk",
+      "id": "nWHF",
       "code_hash": "3c127ef32da1f73eea77bb913e96497e",
       "outputs": [
         {
@@ -203,7 +223,7 @@
       "console": []
     },
     {
-      "id": "nWHF",
+      "id": "iLit",
       "code_hash": "d9db7ee665ba627cf813cd0f092b3f13",
       "outputs": [
         {
@@ -223,7 +243,7 @@
       ]
     },
     {
-      "id": "iLit",
+      "id": "ZHCJ",
       "code_hash": "236e13380c51aa711ab5441efdd5955e",
       "outputs": [
         {
@@ -236,7 +256,7 @@
       "console": []
     },
     {
-      "id": "ZHCJ",
+      "id": "ROlb",
       "code_hash": "bc95890867bae1b54ad494f741531638",
       "outputs": [
         {
@@ -256,7 +276,7 @@
       ]
     },
     {
-      "id": "ROlb",
+      "id": "qnkX",
       "code_hash": "114d0dcc1dbebfaff4cb47f2080eba04",
       "outputs": [
         {
@@ -269,7 +289,7 @@
       "console": []
     },
     {
-      "id": "qnkX",
+      "id": "TqIu",
       "code_hash": "5b2d2696351164497c03a54d32ad6d12",
       "outputs": [
         {
@@ -289,7 +309,7 @@
       ]
     },
     {
-      "id": "TqIu",
+      "id": "Vxnm",
       "code_hash": "d8ef2248296c2ec0ba739792d1d6dfa4",
       "outputs": [
         {
@@ -302,20 +322,20 @@
       "console": []
     },
     {
-      "id": "Vxnm",
+      "id": "DnEU",
       "code_hash": "d8d920570a30d14027a2ba53a15b708e",
       "outputs": [
         {
           "type": "data",
           "data": {
-            "text/html": "<div style='display: flex;flex: 1;flex-direction: row;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 4rem'><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><marimo-ui-element object-id='Vxnm-0' random-id='dc2a148d-e2de-d90a-0ef0-5e07958936d0'><marimo-slider data-initial-value='0.1' data-label='&quot;&#92;u003cspan class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&#92;u003e&#92;u003cspan class=&#92;&quot;paragraph&#92;&quot;&#92;u003ethreshold&#92;u003c/span&#92;u003e&#92;u003c/span&#92;u003e&quot;' data-start='0' data-stop='1' data-step='0.05' data-steps='[]' data-debounce='false' data-disabled='false' data-orientation='&quot;horizontal&quot;' data-show-value='true' data-include-input='false' data-full-width='false'></marimo-slider></marimo-ui-element><marimo-ui-element object-id='Vxnm-1' random-id='66fbc52a-1584-2496-7927-2b328cf0f5da'><marimo-slider data-initial-value='10' data-label='&quot;&#92;u003cspan class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&#92;u003e&#92;u003cspan class=&#92;&quot;paragraph&#92;&quot;&#92;u003en_above&#92;u003c/span&#92;u003e&#92;u003c/span&#92;u003e&quot;' data-start='1' data-stop='50' data-steps='[]' data-debounce='false' data-disabled='false' data-orientation='&quot;horizontal&quot;' data-show-value='true' data-include-input='false' data-full-width='false'></marimo-slider></marimo-ui-element><marimo-ui-element object-id='Vxnm-2' random-id='33e1411f-1c1f-2ccd-c0bd-50d9be74064b'><marimo-slider data-initial-value='1' data-label='&quot;&#92;u003cspan class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&#92;u003e&#92;u003cspan class=&#92;&quot;paragraph&#92;&quot;&#92;u003en_below&#92;u003c/span&#92;u003e&#92;u003c/span&#92;u003e&quot;' data-start='0' data-stop='10' data-steps='[]' data-debounce='false' data-disabled='false' data-orientation='&quot;horizontal&quot;' data-show-value='true' data-include-input='false' data-full-width='false'></marimo-slider></marimo-ui-element></div><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><marimo-ui-element object-id='Vxnm-3' random-id='677a178d-a205-773e-98b6-f9ad105b694f'><marimo-checkbox data-initial-value='true' data-label='&quot;&#92;u003cspan class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&#92;u003e&#92;u003cspan class=&#92;&quot;paragraph&#92;&quot;&#92;u003euse threshold2&#92;u003c/span&#92;u003e&#92;u003c/span&#92;u003e&quot;' data-disabled='false'></marimo-checkbox></marimo-ui-element><marimo-ui-element object-id='Vxnm-4' random-id='37d4effb-b43c-d568-3e42-6f4647715739'><marimo-slider data-initial-value='0.4' data-label='&quot;&#92;u003cspan class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&#92;u003e&#92;u003cspan class=&#92;&quot;paragraph&#92;&quot;&#92;u003ethreshold2&#92;u003c/span&#92;u003e&#92;u003c/span&#92;u003e&quot;' data-start='0' data-stop='1' data-step='0.05' data-steps='[]' data-debounce='false' data-disabled='false' data-orientation='&quot;horizontal&quot;' data-show-value='true' data-include-input='false' data-full-width='false'></marimo-slider></marimo-ui-element><marimo-ui-element object-id='Vxnm-5' random-id='2154e5bc-e24e-dfbf-976c-69a0f5710c80'><marimo-slider data-initial-value='5' data-label='&quot;&#92;u003cspan class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&#92;u003e&#92;u003cspan class=&#92;&quot;paragraph&#92;&quot;&#92;u003en_above2&#92;u003c/span&#92;u003e&#92;u003c/span&#92;u003e&quot;' data-start='1' data-stop='50' data-steps='[]' data-debounce='false' data-disabled='false' data-orientation='&quot;horizontal&quot;' data-show-value='true' data-include-input='false' data-full-width='false'></marimo-slider></marimo-ui-element></div></div>"
+            "text/html": "<div style='display: flex;flex: 1;flex-direction: row;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 4rem'><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><marimo-ui-element object-id='DnEU-0' random-id='da022185-cb9a-ece5-faec-f67eee59f23d'><marimo-slider data-initial-value='0.1' data-label='&quot;&#92;u003cspan class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&#92;u003e&#92;u003cspan class=&#92;&quot;paragraph&#92;&quot;&#92;u003ethreshold&#92;u003c/span&#92;u003e&#92;u003c/span&#92;u003e&quot;' data-start='0' data-stop='1' data-step='0.05' data-steps='[]' data-debounce='false' data-disabled='false' data-orientation='&quot;horizontal&quot;' data-show-value='true' data-include-input='false' data-full-width='false'></marimo-slider></marimo-ui-element><marimo-ui-element object-id='DnEU-1' random-id='3fd574d6-0341-8420-86ba-f3d1011aec3a'><marimo-slider data-initial-value='10' data-label='&quot;&#92;u003cspan class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&#92;u003e&#92;u003cspan class=&#92;&quot;paragraph&#92;&quot;&#92;u003en_above&#92;u003c/span&#92;u003e&#92;u003c/span&#92;u003e&quot;' data-start='1' data-stop='50' data-steps='[]' data-debounce='false' data-disabled='false' data-orientation='&quot;horizontal&quot;' data-show-value='true' data-include-input='false' data-full-width='false'></marimo-slider></marimo-ui-element><marimo-ui-element object-id='DnEU-2' random-id='e99cdf9c-21a4-07a0-069e-c79d562520a3'><marimo-slider data-initial-value='1' data-label='&quot;&#92;u003cspan class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&#92;u003e&#92;u003cspan class=&#92;&quot;paragraph&#92;&quot;&#92;u003en_below&#92;u003c/span&#92;u003e&#92;u003c/span&#92;u003e&quot;' data-start='0' data-stop='10' data-steps='[]' data-debounce='false' data-disabled='false' data-orientation='&quot;horizontal&quot;' data-show-value='true' data-include-input='false' data-full-width='false'></marimo-slider></marimo-ui-element></div><div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><marimo-ui-element object-id='DnEU-3' random-id='7a1a32d7-82da-aff3-f62f-fd4891220eaf'><marimo-checkbox data-initial-value='true' data-label='&quot;&#92;u003cspan class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&#92;u003e&#92;u003cspan class=&#92;&quot;paragraph&#92;&quot;&#92;u003euse threshold2&#92;u003c/span&#92;u003e&#92;u003c/span&#92;u003e&quot;' data-disabled='false'></marimo-checkbox></marimo-ui-element><marimo-ui-element object-id='DnEU-4' random-id='873d4ca8-f281-41e0-83bc-c571ff41b3b1'><marimo-slider data-initial-value='0.4' data-label='&quot;&#92;u003cspan class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&#92;u003e&#92;u003cspan class=&#92;&quot;paragraph&#92;&quot;&#92;u003ethreshold2&#92;u003c/span&#92;u003e&#92;u003c/span&#92;u003e&quot;' data-start='0' data-stop='1' data-step='0.05' data-steps='[]' data-debounce='false' data-disabled='false' data-orientation='&quot;horizontal&quot;' data-show-value='true' data-include-input='false' data-full-width='false'></marimo-slider></marimo-ui-element><marimo-ui-element object-id='DnEU-5' random-id='7bdf6102-ba84-85c0-eac9-a4fb24179a77'><marimo-slider data-initial-value='5' data-label='&quot;&#92;u003cspan class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&#92;u003e&#92;u003cspan class=&#92;&quot;paragraph&#92;&quot;&#92;u003en_above2&#92;u003c/span&#92;u003e&#92;u003c/span&#92;u003e&quot;' data-start='1' data-stop='50' data-steps='[]' data-debounce='false' data-disabled='false' data-orientation='&quot;horizontal&quot;' data-show-value='true' data-include-input='false' data-full-width='false'></marimo-slider></marimo-ui-element></div></div>"
           }
         }
       ],
       "console": []
     },
     {
-      "id": "DnEU",
+      "id": "ulZA",
       "code_hash": "234a5269a8863ef0c9f0b55272c18c94",
       "outputs": [
         {
@@ -335,7 +355,7 @@
       ]
     },
     {
-      "id": "ulZA",
+      "id": "ecfG",
       "code_hash": "5cab90c2c917565458d96f80699bd3a3",
       "outputs": [
         {
@@ -348,7 +368,7 @@
       "console": []
     },
     {
-      "id": "ecfG",
+      "id": "Pvdt",
       "code_hash": "d2b00cb1a3eb076f118d01ee80845977",
       "outputs": [
         {
@@ -362,7 +382,7 @@
         {
           "type": "stream",
           "name": "stdout",
-          "text": "Detection of onset (data size= 10000):\n0.337 ms per loop\n",
+          "text": "Detection of onset (data size= 10000):\n0.320 ms per loop\n",
           "mimetype": "text/plain"
         }
       ]

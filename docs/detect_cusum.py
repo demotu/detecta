@@ -5,6 +5,7 @@
 #     "marimo",
 #     "matplotlib",
 #     "numpy",
+#     "pyversions",
 # ]
 # ///
 
@@ -111,10 +112,17 @@ def _():
 
     import marimo as mo
     import numpy as np
+    import pyversions
 
     from detecta import detect_cusum
 
-    return detect_cusum, mo, np, timeit
+    return detect_cusum, mo, np, pyversions, timeit
+
+
+@app.cell
+def _(pyversions):
+    _info = pyversions.versions()
+    return
 
 
 @app.cell(hide_code=True)
