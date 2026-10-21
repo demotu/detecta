@@ -1,0 +1,26 @@
+{
+    "title": "detecta: A Python module to detect events in data",
+    "creators": [
+        {
+            "name": "Duarte, Marcos",
+            "orcid": "0000-0002-0344-7460",
+            "affiliation": "Federal University of ABC"
+        }
+    ],
+    "upload_type": "software",
+    "access_right": "open",
+    "license": "mit",
+    "keywords": [
+        "peak detection",
+        "onset detection",
+        "cusum",
+        "signal processing",
+        "biomechanics"
+    ],
+    "contributors": [
+        {
+            "name": "Aptekarev, Theodore",
+            "type": "Other"
+        }
+    ]
+}

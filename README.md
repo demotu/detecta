@@ -55,22 +55,20 @@ uvx marimo edit --sandbox docs/detect_peaks.py
 
 ## How to cite this work
 
-Here is a suggestion to cite this GitHub repository:
+Here is a suggestion to cite this software, with its concept DOI, which always resolves to the latest version (to cite a specific version, use its DOI listed on [Zenodo](https://doi.org/10.5281/zenodo.4598961)):
 
-> Marcos Duarte. (2021). detecta: A Python module to detect events in data (Version v0.0.5). Zenodo. http://doi.org/10.5281/zenodo.4598962
+> Marcos Duarte. (2021). detecta: A Python module to detect events in data. Zenodo. https://doi.org/10.5281/zenodo.4598961
 
 And a possible BibTeX entry:
 
 ```tex
-@software{marcos_duarte_2021_4598962,
+@software{duarte_detecta,
   author       = {Marcos Duarte},
-  title        = {detecta: A Python module to detect events in data},
-  month        = mar,
+  title        = {{detecta: A Python module to detect events in data}},
   year         = 2021,
   publisher    = {Zenodo},
-  version      = {v0.0.5},
-  doi          = {10.5281/zenodo.4598962},
-  url          = {https://doi.org/10.5281/zenodo.4598962}
+  doi          = {10.5281/zenodo.4598961},
+  url          = {https://doi.org/10.5281/zenodo.4598961}
 }
 ```
 
