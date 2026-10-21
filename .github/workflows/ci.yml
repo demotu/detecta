@@ -50,3 +50,6 @@ jobs:
           name: dist
           path: dist/
       - uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          # files already on PyPI (e.g., when a release is published again) are skipped
+          skip-existing: true
