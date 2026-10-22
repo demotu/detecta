@@ -57,17 +57,16 @@ uvx marimo edit --sandbox docs/detect_peaks.py
 
 Here is a suggestion to cite this software, with its concept DOI, which always resolves to the latest version (to cite a specific version, use its DOI listed on [Zenodo](https://doi.org/10.5281/zenodo.4598961)):
 
-> Marcos Duarte. (2026). detecta: A Python module to detect events in data (v0.1.0). Zenodo. https://doi.org/10.5281/zenodo.4598961
+> Marcos Duarte. (2021). detecta: A Python module to detect events in data. Zenodo. https://doi.org/10.5281/zenodo.4598961
 
 And a possible BibTeX entry:
 
 ```tex
 @software{duarte_detecta,
-  author       = {Duarte, Marcos},
+  author       = {Marcos Duarte},
   title        = {{detecta: A Python module to detect events in data}},
-  year         = 2026,
+  year         = 2021,
   publisher    = {Zenodo},
-  version      = {v0.1.0},
   doi          = {10.5281/zenodo.4598961},
   url          = {https://doi.org/10.5281/zenodo.4598961}
 }
