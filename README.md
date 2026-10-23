@@ -32,16 +32,19 @@ conda install -c duartexyz detecta
 
 ## Examples
 
-The examples are [marimo](https://marimo.io) notebooks in the [docs](https://github.com/demotu/detecta/tree/master/docs) directory. Run them in your browser, no installation needed:
+The examples are [marimo](https://marimo.io) notebooks in [docs/](https://github.com/demotu/detecta/tree/master/docs). Click a notebook name to open its **editable GitHub Pages version**. Click **Run all**, then edit and rerun cells to experiment. Download the Python file to keep your changes; browser edits do not update this repository.
 
-| Notebook | molab | marimo.app |
-|---|---|---|
-| [detect_peaks](https://molab.marimo.io/github/demotu/detecta/blob/master/docs/detect_peaks.py) | [![Open in molab](https://marimo.io/molab-shield.svg)](https://molab.marimo.io/github/demotu/detecta/blob/master/docs/detect_peaks.py/wasm) | [![Open with marimo](https://marimo.io/shield.svg)](https://marimo.app/github.com/demotu/detecta/blob/master/docs/detect_peaks.py) |
-| [detect_onset](https://molab.marimo.io/github/demotu/detecta/blob/master/docs/detect_onset.py) | [![Open in molab](https://marimo.io/molab-shield.svg)](https://molab.marimo.io/github/demotu/detecta/blob/master/docs/detect_onset.py/wasm) | [![Open with marimo](https://marimo.io/shield.svg)](https://marimo.app/github.com/demotu/detecta/blob/master/docs/detect_onset.py) |
-| [detect_cusum](https://molab.marimo.io/github/demotu/detecta/blob/master/docs/detect_cusum.py) | [![Open in molab](https://marimo.io/molab-shield.svg)](https://molab.marimo.io/github/demotu/detecta/blob/master/docs/detect_cusum.py/wasm) | [![Open with marimo](https://marimo.io/shield.svg)](https://marimo.app/github.com/demotu/detecta/blob/master/docs/detect_cusum.py) |
-| [detect_seq](https://molab.marimo.io/github/demotu/detecta/blob/master/docs/detect_seq.py) | [![Open in molab](https://marimo.io/molab-shield.svg)](https://molab.marimo.io/github/demotu/detecta/blob/master/docs/detect_seq.py/wasm) | [![Open with marimo](https://marimo.io/shield.svg)](https://marimo.app/github.com/demotu/detecta/blob/master/docs/detect_seq.py) |
+- [detect_peaks](https://demotu.github.io/detecta/detect_peaks.html) [![molab][molab-badge]](https://molab.marimo.io/github/demotu/detecta/blob/master/docs/detect_peaks.py) [![marimo][marimo-badge]](https://marimo.app/github.com/demotu/detecta/blob/master/docs/detect_peaks.py)
+- [detect_onset](https://demotu.github.io/detecta/detect_onset.html) [![molab][molab-badge]](https://molab.marimo.io/github/demotu/detecta/blob/master/docs/detect_onset.py) [![marimo][marimo-badge]](https://marimo.app/github.com/demotu/detecta/blob/master/docs/detect_onset.py)
+- [detect_cusum](https://demotu.github.io/detecta/detect_cusum.html) [![molab][molab-badge]](https://molab.marimo.io/github/demotu/detecta/blob/master/docs/detect_cusum.py) [![marimo][marimo-badge]](https://marimo.app/github.com/demotu/detecta/blob/master/docs/detect_cusum.py)
+- [detect_seq](https://demotu.github.io/detecta/detect_seq.html) [![molab][molab-badge]](https://molab.marimo.io/github/demotu/detecta/blob/master/docs/detect_seq.py) [![marimo][marimo-badge]](https://marimo.app/github.com/demotu/detecta/blob/master/docs/detect_seq.py)
 
-The notebook name links to a static preview with the outputs; the badges run the notebook in your browser with [WebAssembly](https://docs.marimo.io/guides/wasm/).
+Every notebook links to its **Read saved outputs** version in [docs/html/](https://demotu.github.io/detecta/docs/html/). Those pages contain saved text and plots and can be read without running Python; their controls cannot recompute results. Both modes are hosted on this repository's GitHub Pages site independently of molab and marimo.app. The compact badges provide alternative interactive services; their molab links use the standard execution mode.
+
+Editable Pages notebooks run Python through [WebAssembly](https://docs.marimo.io/guides/wasm/). They still download their runtime and packages, and saved pages load display assets, so keep an Internet connection. GitHub Actions automatically discovers the notebooks, refreshes saved outputs and publishes the editable collection on every push to `master`. See [scripts/README.md](scripts/README.md) to update or preview the exports locally.
+
+[molab-badge]: https://img.shields.io/badge/molab-334155?style=flat-square
+[marimo-badge]: https://img.shields.io/badge/marimo-235b43?style=flat-square
 
 Or run them locally:
 

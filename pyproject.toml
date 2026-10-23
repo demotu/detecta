@@ -24,6 +24,12 @@ classifiers = [
 plot = ["matplotlib"]
 test = ["pytest", "matplotlib"]
 
+[dependency-groups]
+docs = ["marimo==0.25.2", "matplotlib>=3.9", "pyversions>=0.0.4", "ruff>=0.15"]
+
+[tool.uv.dependency-groups]
+docs = { requires-python = ">=3.10" }
+
 [project.urls]
 Homepage = "https://github.com/demotu/detecta"
 Documentation = "https://github.com/demotu/detecta/tree/master/docs"

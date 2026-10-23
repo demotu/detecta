@@ -1,0 +1,145 @@
+{
+  "date": "2026-10-23",
+  "base_commit": "a6a33c2",
+  "project_url_prefix": "/detecta/",
+  "editable_directory": ".",
+  "saved_directory": "docs/html",
+  "source_directory": "docs",
+  "environment": {
+    "python": "3.14.7",
+    "marimo": "0.25.2",
+    "detecta": "0.1.0",
+    "docs_group_python": ">=3.10",
+    "package_python": ">=3.9"
+  },
+  "native_saved_exports": 4,
+  "native_editable_exports": 4,
+  "saved_figure_cells": {
+    "docs/detect_cusum.py": 11,
+    "docs/detect_onset.py": 8,
+    "docs/detect_peaks.py": 8,
+    "docs/detect_seq.py": 4
+  },
+  "tests": {
+    "python_314_passed": 853,
+    "python_39_passed": 840,
+    "python_39_skipped": 1,
+    "python_39_upstream_deprecation_warnings": 14
+  },
+  "wheel_metadata": "Python >=3.9 and original runtime/optional requirements verified; marimo, pyversions and ruff are not runtime dependencies",
+  "link_audit": {
+    "editable_pages": 4,
+    "saved_pages": 4,
+    "root_and_saved_catalogs": 2,
+    "source_and_html_hashes": "passed",
+    "linked_local_targets": 197,
+    "readme_root_titles": 4,
+    "plain_molab_urls": 4,
+    "original_session_caches_unchanged": 4
+  },
+  "browser_engine": "Actual Chromium WASM Python with molab and marimo.app blocked; no computation/data stubs",
+  "browser_checks": [
+    {
+      "source": "docs/detect_onset.py",
+      "html": "detect_onset.html",
+      "cell_states": {
+        "idle": 24
+      },
+      "plots": 8,
+      "expected_plot_cells": 8,
+      "saved_plots": 8,
+      "mode_switch_both_directions": true,
+      "status": "passed",
+      "seconds": 47.3,
+      "page_errors": [],
+      "source_sha256": "a785a4339fac1a661d8cc035000227f9f3929e09a8a69d3d69bb0aec71da78ca",
+      "html_sha256": "fc2b60ca314f2103bcf6bc261e0ff53638b4072acbd5af28baab30ffaab863e1"
+    },
+    {
+      "source": "docs/detect_cusum.py",
+      "html": "detect_cusum.html",
+      "cell_states": {
+        "idle": 33
+      },
+      "plots": 11,
+      "expected_plot_cells": 11,
+      "saved_plots": 11,
+      "mode_switch_both_directions": true,
+      "status": "passed",
+      "seconds": 68.4,
+      "page_errors": [],
+      "source_sha256": "fd9684876777c4674cd7bd2cccc038946132265e11c0fa1e7fcf75e1e25a1eb6",
+      "html_sha256": "7a69c7a1058321e754c0c5a041d20b870b02f294636ff95b8726411db48e4013"
+    },
+    {
+      "source": "docs/detect_peaks.py",
+      "html": "detect_peaks.html",
+      "cell_states": {
+        "idle": 24
+      },
+      "plots": 8,
+      "expected_plot_cells": 8,
+      "keyboard_edit_results": [
+        42,
+        48
+      ],
+      "saved_plots": 8,
+      "mode_switch_both_directions": true,
+      "status": "passed",
+      "seconds": 50.7,
+      "page_errors": [],
+      "source_sha256": "517309ec94d577acf01280306e1c421aa9d74e0276128f3373f8cc13499bb2eb",
+      "html_sha256": "cc76d577089d5939b7ad50b583f0f0e90aeb89365efc7a353d85fd1896bb657e"
+    },
+    {
+      "source": "docs/detect_seq.py",
+      "html": "detect_seq.html",
+      "cell_states": {
+        "idle": 19
+      },
+      "plots": 4,
+      "expected_plot_cells": 4,
+      "saved_plots": 4,
+      "mode_switch_both_directions": true,
+      "status": "passed",
+      "seconds": 36.1,
+      "page_errors": [],
+      "source_sha256": "572bef404ef9f7c46c32ecd30b2bb9a205fa6205b579301b3bff18ea2085ad0c",
+      "html_sha256": "610a053c82e6e1072c584ac0b10283f25bf7d9a7e69291e18491850e95ec9acc"
+    }
+  ],
+  "control_recomputation": {
+    "parameter": "mpd",
+    "before": 20,
+    "after": 50,
+    "plot_changed": true
+  },
+  "keyboard_edit_results": [
+    42,
+    48
+  ],
+  "independent_review": "No Critical or Important issues. Catalog freshness gap reproduced and fixed with an observed failing/passing test and green full suite.",
+  "original_session_cache_sha256": {
+    "docs/__marimo__/session/detect_seq.py.json": "01dac2fb3ce957a6a4a75cb784b15933bdfe99b1e5e6c83ea875eb53cc3eb73d",
+    "docs/__marimo__/session/detect_onset.py.json": "78b71401b683de5333eb20f228ec8fcdafc836e2cde43d5dcd1689812c4ad6ca",
+    "docs/__marimo__/session/detect_cusum.py.json": "43e65122b2cd7923634471e3d5e1147f5acdc03342803be007fcc8a8ba45bd84",
+    "docs/__marimo__/session/detect_peaks.py.json": "d5e40f52ebbbe2b65df6144e830b9da918fc4e04a91e240386403b7a6c7c19cb"
+  },
+  "unchanged": "Package algorithms/version/runtime dependencies, scientific notebook sources, committed source caches, release CI and citation metadata",
+  "exporter_sha256": {
+    "scripts/export_notebooks.py": "fca76dc8f743ee5e06cded6cae7ec03f3da21d287e72d0c55cb7eae005e47d96",
+    "scripts/export_editable.py": "ed32a3ba908473080aac2d61bfb8a2627f8668787fc63df71dd87584a8fb94dd"
+  },
+  "publication_performed": false,
+  "limits": "Local saved/native builds and all four browser executions verified. Full Jekyll build and live deployment are checked after this user-authorized push. Default examples plus a peaks slider and Python edit tested; not every optional parameter combination. Browser runtime/packages and saved display assets require Internet.",
+  "layout_followup": "User requested moving the saved collection under the existing docs/ directory. Both catalogs and all four actual browser mode-switch checks were reverified; the obsolete notebooks_html source/build directory was removed.",
+  "internal_plans": "Local-only docs/superpowers/ is ignored by Git at the user request and must not be committed or pushed.",
+  "publication_recording_stage": "Checks recorded before the prepared commit. User subsequently authorized push; live Pages verification follows the commit and is reported in the final handoff.",
+  "final_editable_export_html_sha256": {
+    "docs/detect_cusum.py": "f994f637110a908a141fefbcc31ac0954c16b8601ebe1c5344764b4e75ba6057",
+    "docs/detect_onset.py": "9e29a89fce5640e354fa52c1f3fc36381013e8788466b29427785834af204afb",
+    "docs/detect_peaks.py": "03493843c82aa300ad99e305a6764406b2c7be5369b8f1697a77163f4187ab14",
+    "docs/detect_seq.py": "36d029e8e1ee38d336cdb203e3deb3b6eaed7fde91b08c2d96ca34fe725eeed4"
+  },
+  "publication_formatting": "Native generated HTML trailing whitespace is normalized. All native exports and the full 853-test suite were revalidated before push; scientific notebook sources are unchanged. Browser records retain the hashes of the actual artifacts tested before this whitespace-only change."
+}

@@ -1,0 +1,61 @@
+name: Publish notebooks to GitHub Pages
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: read
+    steps:
+      - uses: actions/checkout@v6
+      - uses: astral-sh/setup-uv@v7
+        with:
+          python-version: '3.14'
+          enable-cache: true
+      - name: Install locked publishing tools
+        run: uv sync --locked --group docs --extra test
+      - name: Test package and publishing tools
+        run: uv run --group docs --extra test pytest -q
+      - name: Refresh saved notebook outputs
+        run: uv run --group docs python scripts/export_notebooks.py
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Build Cayman site and saved pages
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+      - name: Allow post-processing of the container-built site
+        run: sudo chown -R "$(id -u):$(id -g)" _site
+      - name: Export editable notebooks
+        run: uv run --group docs python scripts/export_editable.py --site _site
+      - name: Upload complete site
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy Pages
+        id: deployment
+        uses: actions/deploy-pages@v5

@@ -1,0 +1,41 @@
+{
+  "exporter": "marimo export html",
+  "notebooks": [
+    {
+      "source": "docs/detect_cusum.py",
+      "source_sha256": "fd9684876777c4674cd7bd2cccc038946132265e11c0fa1e7fcf75e1e25a1eb6",
+      "shared_inputs_sha256": "4cffb28c79fb13274b6a1a0b7ab2fac8ae011e9cc39ab426c0a7c8b8c6ff1975",
+      "html": "detect_cusum.html",
+      "html_sha256": "bb330bd7db12585d1821253e66f754648ccfc8740f098c29c868fcff481bf0e5",
+      "cells": 33,
+      "cells_with_saved_figures": 11
+    },
+    {
+      "source": "docs/detect_onset.py",
+      "source_sha256": "a785a4339fac1a661d8cc035000227f9f3929e09a8a69d3d69bb0aec71da78ca",
+      "shared_inputs_sha256": "4cffb28c79fb13274b6a1a0b7ab2fac8ae011e9cc39ab426c0a7c8b8c6ff1975",
+      "html": "detect_onset.html",
+      "html_sha256": "1287fbfce7585ef0f24d87455dd1ce7cf3a05e91ebe2c9441116108a0ab1d20d",
+      "cells": 24,
+      "cells_with_saved_figures": 8
+    },
+    {
+      "source": "docs/detect_peaks.py",
+      "source_sha256": "517309ec94d577acf01280306e1c421aa9d74e0276128f3373f8cc13499bb2eb",
+      "shared_inputs_sha256": "4cffb28c79fb13274b6a1a0b7ab2fac8ae011e9cc39ab426c0a7c8b8c6ff1975",
+      "html": "detect_peaks.html",
+      "html_sha256": "1b7cbe477b725cc036e63984a5344fb7955d8aec5135a7b4eeed79a7041df7b9",
+      "cells": 24,
+      "cells_with_saved_figures": 8
+    },
+    {
+      "source": "docs/detect_seq.py",
+      "source_sha256": "572bef404ef9f7c46c32ecd30b2bb9a205fa6205b579301b3bff18ea2085ad0c",
+      "shared_inputs_sha256": "4cffb28c79fb13274b6a1a0b7ab2fac8ae011e9cc39ab426c0a7c8b8c6ff1975",
+      "html": "detect_seq.html",
+      "html_sha256": "5c4843343c40cd545708bc2291e65594f74dfc0acb00e202f5b7e091f8c9fa04",
+      "cells": 19,
+      "cells_with_saved_figures": 4
+    }
+  ]
+}
