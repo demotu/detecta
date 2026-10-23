@@ -64,12 +64,12 @@ def _(mo):
 
     For the CUSUM algorithm to work properly, it depends on tuning the parameters $threshold$ and $drift$ to what is meant by a change in the data. According to Gustafsson (2000), this tuning can be performed following these steps:
 
-     - Start with a very large $threshold$.
-     - Choose $drift$ to one half of the expected change, or adjust $drift$ such that $g$ = 0 more than 50% of the time.
-     - Then set the $threshold$ so the required number of false alarms (this can be done automatically) or delay for detection is obtained.
-     - If faster detection is sought, try to decrease $drift$.
-     - If fewer false alarms are wanted, try to increase $drift$.
-     - If there is a subset of the change times that does not make sense, try to increase $drift$.
+    - Start with a very large $threshold$.
+    - Choose $drift$ to one half of the expected change, or adjust $drift$ such that $g$ = 0 more than 50% of the time.
+    - Then set the $threshold$ so the required number of false alarms (this can be done automatically) or delay for detection is obtained.
+    - If faster detection is sought, try to decrease $drift$.
+    - If fewer false alarms are wanted, try to increase $drift$.
+    - If there is a subset of the change times that does not make sense, try to increase $drift$.
 
     The function `detect_cusum.py` ([source code](https://github.com/demotu/detecta/blob/master/detecta/detect_cusum.py)) implements the CUSUM algorithm and a procedure to calculate the ending of the detected change. The function signature is:
     ```python

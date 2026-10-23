@@ -3,10 +3,10 @@
   "notebooks": [
     {
       "source": "docs/detect_cusum.py",
-      "source_sha256": "fd9684876777c4674cd7bd2cccc038946132265e11c0fa1e7fcf75e1e25a1eb6",
+      "source_sha256": "b033e373b82d2feb3685d93a37f472dcedcc15a0cf84fb7071a159766fc727cd",
       "shared_inputs_sha256": "4cffb28c79fb13274b6a1a0b7ab2fac8ae011e9cc39ab426c0a7c8b8c6ff1975",
       "html": "detect_cusum.html",
-      "html_sha256": "bb330bd7db12585d1821253e66f754648ccfc8740f098c29c868fcff481bf0e5",
+      "html_sha256": "00d1fa499e90ad9ee4187f8be2d4292a85f772415a4363513c4b18bd5f6a5b2a",
       "cells": 33,
       "cells_with_saved_figures": 11
     },
